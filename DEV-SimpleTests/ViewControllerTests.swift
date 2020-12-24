@@ -33,6 +33,6 @@ class ViewControllerTests: XCTestCase {
     }
     
     func testDevtoBaseUrl() {
-        XCTAssertEqual(self.viewController.devToURL, "https://dev.to")
+        XCTAssertEqual(self.viewController.devToURL, "https://themintfarm.ml")
     }
 }
