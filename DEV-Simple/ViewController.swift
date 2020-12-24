@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         if let developmentURL = ProcessInfo.processInfo.environment["DEV_URL"] {
             return developmentURL
         }
-        return "https://dev.to"
+        return "https://themintfarm.ml"
     }()
 
     override func viewDidLoad() {
