@@ -19,7 +19,7 @@ platform :ios do
   desc "TestFlight upload"
   lane :beta do
     increment_build_number
-    match(type: "appstore", readonly: true, app_identifier: "to.dev.ios")
+    match(type: "appstore", readonly: true, app_identifier: "lgbt.mint.ios")
     gym(scheme: "forem-ios", configuration: "Release", clean: true)
     upload_to_testflight(skip_waiting_for_build_processing: true)
   end
